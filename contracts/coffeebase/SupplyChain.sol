@@ -269,7 +269,7 @@ contract SupplyChain {
     // Define a function 'fetchItemBufferOne' that fetches the data
     function fetchItemBufferOne(uint256 _upc)
         public
-        view
+        pure
         returns (
             uint256 itemSKU,
             uint256 itemUPC,
@@ -282,6 +282,7 @@ contract SupplyChain {
         )
     {
         // Assign values to the 8 parameters
+
 
         return (
             itemSKU,
@@ -298,7 +299,7 @@ contract SupplyChain {
     // Define a function 'fetchItemBufferTwo' that fetches the data
     function fetchItemBufferTwo(uint256 _upc)
         public
-        view
+        pure
         returns (
             uint256 itemSKU,
             uint256 itemUPC,
