@@ -2,7 +2,7 @@ pragma solidity >=0.4.24;
 
 /// Provides basic authorization control
 contract Ownable {
-    address private origOwner;
+    address payable private origOwner;
 
     // Define an Event
     event TransferOwnership(address indexed oldOwner, address indexed newOwner);
@@ -14,7 +14,7 @@ contract Ownable {
     }
 
     /// Look up the address of the owner
-    function owner() public view returns (address) {
+    function owner() public view returns (address payable) {
         return origOwner;
     }
 
@@ -36,12 +36,12 @@ contract Ownable {
     }
 
     /// Define a public function to transfer ownership
-    function transferOwnership(address newOwner) public onlyOwner {
+    function transferOwnership(address payable newOwner) public onlyOwner {
         _transferOwnership(newOwner);
     }
 
     /// Define an internal function to transfer ownership
-    function _transferOwnership(address newOwner) internal {
+    function _transferOwnership(address payable newOwner) internal {
         require(newOwner != address(0), "The new onwer is address(0)");
         emit TransferOwnership(origOwner, newOwner);
         origOwner = newOwner;
