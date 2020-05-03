@@ -1,10 +1,20 @@
 Project write-up - UML
 * Activity
+
 ![Activity](images/ActivityDiagram.png)
 
 * Sequence
+
+![Sequence](images/SequenceDiagram.png)
+
 * State
+
+![Sequence](images/StateDiagram.png)
+
 * Class (Data Model)
+
+![Sequence](images/ClassDiagram.png)
+
 
 Project write-up - Libraries
 NA
