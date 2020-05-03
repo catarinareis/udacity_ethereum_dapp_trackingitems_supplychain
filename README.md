@@ -22,7 +22,8 @@ NA
 Project write-up - IPFS
 NA
 
-Rinkeby Address - 0xc580Ddf6477b8173C48DBe60ba77A20c9FC47a85 (Tx Hash - 0x6b546ed42ccd98e95ea71114156117db3406be2e2c67c6f4945aa5fa1fcbba54)
+Rinkeby Address - 0xc580Ddf6477b8173C48DBe60ba77A20c9FC47a85 
+(Tx Hash - 0x6b546ed42ccd98e95ea71114156117db3406be2e2c67c6f4945aa5fa1fcbba54)
 https://rinkeby.etherscan.io/address/0xc580ddf6477b8173c48dbe60ba77a20c9fc47a85
 
 
