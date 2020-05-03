@@ -1,5 +1,7 @@
 Project write-up - UML
 * Activity
+![Activity](images/ActivityDiagram.png)
+
 * Sequence
 * State
 * Class (Data Model)
