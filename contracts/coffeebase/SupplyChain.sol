@@ -169,7 +169,7 @@ contract SupplyChain is Ownable, FarmerRole, DistributorRole, RetailerRole, Cons
         string memory _originFarmLatitude,
         string memory _originFarmLongitude,
         string memory _productNotes
-    ) public onlyOwner() onlyFarmer {
+    ) public onlyFarmer {
         // Add the new item as part of Harvest
         items[_upc].itemState = State.Harvested;
 
